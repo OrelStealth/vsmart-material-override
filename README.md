@@ -3,8 +3,9 @@
 A simple smartprop which you can use for replacing specific material of a prop_static without needing to decompile models or replacing all materials at once.
 
 # How to install
-1. Download the latest version from releases page
-2. Unzip it to "game/csgo_addons/YOUR_ADDON_NAME/"
+1. Download the latest version from [releases page]([https://github.com/OrelStealth/vsmart-letters/releases](https://github.com/OrelStealth/vsmart-material-override/releases)) (make sure you downloaded "vsmart_c" file and not "vsmart")
+3. Unzip it to "game/csgo_addons/YOUR_ADDON_NAME/"
+4. Final path to the smartprop should be "game/csgo_addons/YOUR_ADDON_NAME/smartprops/material_override.vsmart_c"
 
 # How to use
 1. Find "material_override" in asset browser and place it on a map
