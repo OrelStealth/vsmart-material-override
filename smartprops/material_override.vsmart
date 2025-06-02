@@ -1,0 +1,241 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vrfunknown:version{5ab656f0-06de-478a-804e-489e82994fb5} -->
+{
+	generic_data_type = "CSmartPropRoot"
+	m_nContentVersion = "2"
+	m_Variables = 
+	[
+        {
+			_class = "CSmartPropVariable_Model"
+			m_VariableName = "model"
+			m_DisplayName = "Model"
+			m_bExposeAsParameter = true
+			m_DefaultValue = resource_name:"models/de_inferno/wood_crate_01/inferno_crate_wood_01.vmdl"
+        },
+		{
+            _class = "CSmartPropVariable_String"
+            m_DefaultValue = "type_skin_name_here"
+            m_bExposeAsParameter = true
+            m_DisplayName = "Model skin"
+            m_VariableName = "model_skin"
+        },
+		
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_origin1"
+			m_DisplayName = "Old material #1"
+			m_DefaultValue = resource_name:"models/de_inferno/wood_crate_01/inferno_wood_crate_plywood_01.vmat"
+			m_bExposeAsParameter = true
+		},
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_override1"
+			m_DisplayName = "New material #1"
+			m_DefaultValue = resource_name:"models/de_inferno/bk01/bk01_trim_wood01b.vmat"
+			m_bExposeAsParameter = true
+		},
+		
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_origin2"
+			m_DisplayName = "Old material #2"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_override2"
+			m_DisplayName = "New material #2"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_origin3"
+			m_DisplayName = "Old material #3"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_override3"
+			m_DisplayName = "New material #3"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_origin4"
+			m_DisplayName = "Old material #4"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_override4"
+			m_DisplayName = "New material #4"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_origin5"
+			m_DisplayName = "Old material #5"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_override5"
+			m_DisplayName = "New material #5"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_origin6"
+			m_DisplayName = "Old material #6"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_override6"
+			m_DisplayName = "New material #6"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_origin7"
+			m_DisplayName = "Old material #7"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_override7"
+			m_DisplayName = "New material #7"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_origin8"
+			m_DisplayName = "Old material #8"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+		{
+			_class = "CSmartPropVariable_Material"
+			m_VariableName = "material_override8"
+			m_DisplayName = "New material #8"
+			m_DefaultValue = resource_name:""
+			m_bExposeAsParameter = true
+		},
+	]
+	m_Children = 
+	[
+		{
+            _class = "CSmartPropElement_Model"
+			m_sModelName = {m_SourceName = "model"}
+			m_MaterialGroupName = {m_SourceName = "model_skin"}
+			m_Modifiers = 
+			[
+				{
+					_class = "CSmartPropOperation_MaterialOverride"
+					m_MaterialReplacements = 
+					[
+						{
+							m_OriginalMaterial = {m_SourceName = "material_origin1"}
+							m_ReplacementMaterial = {m_SourceName = "material_override1"}
+						},
+					]
+					m_bClearCurrentOverrides = false
+				},
+				{
+					_class = "CSmartPropOperation_MaterialOverride"
+					m_MaterialReplacements = 
+					[
+						{
+							m_OriginalMaterial = {m_SourceName = "material_origin2"}
+							m_ReplacementMaterial = {m_SourceName = "material_override2"}
+						},
+					]
+					m_bClearCurrentOverrides = false
+				},
+				{
+					_class = "CSmartPropOperation_MaterialOverride"
+					m_MaterialReplacements = 
+					[
+						{
+							m_OriginalMaterial = {m_SourceName = "material_origin3"}
+							m_ReplacementMaterial = {m_SourceName = "material_override3"}
+						},
+					]
+					m_bClearCurrentOverrides = false
+				},
+				{
+					_class = "CSmartPropOperation_MaterialOverride"
+					m_MaterialReplacements = 
+					[
+						{
+							m_OriginalMaterial = {m_SourceName = "material_origin4"}
+							m_ReplacementMaterial = {m_SourceName = "material_override4"}
+						},
+					]
+					m_bClearCurrentOverrides = false
+				},
+				{
+					_class = "CSmartPropOperation_MaterialOverride"
+					m_MaterialReplacements = 
+					[
+						{
+							m_OriginalMaterial = {m_SourceName = "material_origin5"}
+							m_ReplacementMaterial = {m_SourceName = "material_override5"}
+						},
+					]
+					m_bClearCurrentOverrides = false
+				},
+				{
+					_class = "CSmartPropOperation_MaterialOverride"
+					m_MaterialReplacements = 
+					[
+						{
+							m_OriginalMaterial = {m_SourceName = "material_origin6"}
+							m_ReplacementMaterial = {m_SourceName = "material_override6"}
+						},
+					]
+					m_bClearCurrentOverrides = false
+				},
+				{
+					_class = "CSmartPropOperation_MaterialOverride"
+					m_MaterialReplacements = 
+					[
+						{
+							m_OriginalMaterial = {m_SourceName = "material_origin7"}
+							m_ReplacementMaterial = {m_SourceName = "material_override7"}
+						},
+					]
+					m_bClearCurrentOverrides = false
+				},
+				{
+					_class = "CSmartPropOperation_MaterialOverride"
+					m_MaterialReplacements = 
+					[
+						{
+							m_OriginalMaterial = {m_SourceName = "material_origin8"}
+							m_ReplacementMaterial = {m_SourceName = "material_override8"}
+						},
+					]
+					m_bClearCurrentOverrides = false
+				},
+			]
+		}	
+	]
+}
